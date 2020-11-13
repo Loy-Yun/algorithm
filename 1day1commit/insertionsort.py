@@ -1,4 +1,5 @@
 n = int(input("입력할 숫자의 개수는?: "))
+
 nlist = []
 
 for i in range(n):
@@ -9,6 +10,6 @@ for i in range(1, n):
         if nlist[j] < nlist[j-1]:
             nlist[j], nlist[j-1] = nlist[j-1], nlist[j]
         else: break
-
+        
 for i in nlist:
     print(i)
