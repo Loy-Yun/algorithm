@@ -1,5 +1,4 @@
 import sys
-
 l = []
 n = int(input())
 
