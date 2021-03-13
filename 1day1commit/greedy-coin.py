@@ -12,6 +12,7 @@ nlist.sort(reverse=True)
 
 for i in nlist:
     if m <= 0: break
+
     if i <= m:        
         x = m//i
         m = m - i*x       
