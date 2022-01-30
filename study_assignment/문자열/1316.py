@@ -8,10 +8,10 @@ count = 0
 
 for t in terms:
     if t == 'Z':
-        result += 10
+        count += 10
     elif ord(t) > 82:
-        result += (ord(t)-66) // 3 + 3
+        count += (ord(t)-66) // 3 + 3
     else:
-        result += (ord(t)-65) // 3 + 3
+        count += (ord(t)-65) // 3 + 3
 
-print(result)
+print(count)
